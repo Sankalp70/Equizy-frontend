@@ -24,9 +24,9 @@ const Sharepopup = ({ quizId, quizType, setAnalytics, setGetLink }) => {
 
   let link;
   if (quizType === "Q&A") {
-    link = `http://localhost:3000/playQuiz/${quizId}`;
+    link = `https://equizy.vercel.app/playQuiz/${quizId}`;
   } else if (quizType === "Poll") {
-    link = `http://localhost:3000/Poll/${quizId}`;
+    link = `https://equizy.vercel.app/Poll/${quizId}`;
   } else {
     link = "No link is available";
   }
